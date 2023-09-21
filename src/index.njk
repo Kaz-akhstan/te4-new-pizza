@@ -1,3 +1,11 @@
 ---
 layout: "base.njk"
 ---
+
+<ul>
+    {% for item in menu %}
+    <li>
+        <p>{{ item.name }}</p>
+    </li>
+    {% endfor %}
+</ul>

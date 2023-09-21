@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Margherita",
+        "price": 95,
+        "ingredients": []
+    },
+    {
+        "name": "Vesuvio",
+        "price": 95,
+        "ingredients": [
+            "Skinka"
+        ]
+    },
+    {
+        "name": "Vesuvio",
+        "price": 95,
+        "ingredients": [
+            "Skinka"
+        ]
+    }
+]
