@@ -99,3 +99,7 @@ h3 {
     --grid-placement: auto-fit;
     --grid-min-item-size: clamp(16rem, 50vw, 26rem)
 }
+
+[role="list"] {
+    padding: 0;
+}
