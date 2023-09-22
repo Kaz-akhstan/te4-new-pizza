@@ -1,0 +1,23 @@
+.menu {
+    width: min(36rem, 100vw - 4rem);
+    margin-inline: auto;
+}
+
+.ingredient-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.ingredient-list>li {
+    padding-right: 1rem;
+}
+
+.ingredient-list>li>p {
+    font-size: var(--size-step-0);
+}
+
+.pizza-ingredient {
+    margin: 0;
+}
