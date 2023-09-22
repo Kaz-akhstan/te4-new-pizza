@@ -10,17 +10,14 @@
 </head>
 
 <body>
+    {% include "navbar.njk" %}
     <main class="flow">
-        {% include "navbar.njk" %}
+        {% include "hero.njk" %}
         <article>
             {{ content | safe }}
         </article>
     </main>
-    <footer>
-        {% include "footer.njk" %}
-        {% block content %}
-        {% endblock %}
-    </footer>
+    {% include "footer.njk" %}
 </body>
 
 </html>
