@@ -1,0 +1,14 @@
+<ol class="menu">
+    {% for item in menu %}
+    <li>
+        <p class="pizza-name">{{ item.name }} {{ item.price }} kr</p>
+        <ul class="ingredient-list">
+            {% for ingredients in item.ingredients %}
+            <li>
+                <p class="pizza-ingredient">{{ ingredients }}</p>
+            </li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+</ol>

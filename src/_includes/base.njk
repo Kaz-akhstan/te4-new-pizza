@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/hero.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/menu.css">
     <title>Document</title>
 </head>
 
@@ -16,6 +17,7 @@
     <main class="flow">
         {% include "hero.njk" %}
         <article>
+            {% include "menu.njk" %}
             {{ content | safe }}
         </article>
     </main>
