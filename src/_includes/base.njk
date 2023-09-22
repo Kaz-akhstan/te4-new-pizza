@@ -19,9 +19,11 @@
     {% include "navbar.njk" %}
     <main class="flow">
         {% include "hero.njk" %}
-        <article>
+        <article id="menu">
             {% include "menu.njk" %}
-            {{ content | safe }}
+        </article>
+        <article id="about">
+            {% include "about.njk" %}
         </article>
     </main>
     {% include "footer.njk" %}
