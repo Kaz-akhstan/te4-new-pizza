@@ -10,6 +10,13 @@ nav {
 
 header {
     margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+header>p {
+    font-size: var(--size-step-0);
+    margin-left: .25rem;
 }
 
 header>h1 {
