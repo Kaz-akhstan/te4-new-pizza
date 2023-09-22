@@ -1,8 +1,36 @@
-.hero {
-    width: 20rem;
-    height: 10rem;
+.hero-img {
+    z-index: -1;
+    top: 0;
+    position: absolute;
+    filter: brightness(65%) opacity(.9);
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/ivan-torres-MQUqbmszGGM-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-.hero>img {
-    object-fit: fill;
+.hero {
+    width: 100%;
+    height: 96vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--color-light);
+    margin: 0;
+}
+
+.hero>h1 {
+    margin: var(--space-s);
+    font-size: var(--size-step-4);
+}
+
+.hero>h2 {
+    font-size: var(--size-step-3);
+    margin: var(--space-s);
 }
