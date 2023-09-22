@@ -1,3 +1,4 @@
 node_modules/
-dist/
 public/
+public/index.html
+public/css/style.css
