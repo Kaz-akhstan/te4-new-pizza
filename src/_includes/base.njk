@@ -15,6 +15,11 @@
             {{ content | safe }}
         </article>
     </main>
+    <footer>
+        {% include "footer.njk" %}
+        {% block content %}
+        {% endblock %}
+    </footer>
 </body>
 
 </html>
