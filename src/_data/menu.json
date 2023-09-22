@@ -1,21 +1,129 @@
 [
     {
         "name": "Margherita",
-        "price": 95,
+        "price": 90,
         "ingredients": []
     },
     {
         "name": "Vesuvio",
-        "price": 95,
+        "price": 90,
         "ingredients": [
             "Skinka"
         ]
     },
     {
-        "name": "Vesuvio",
-        "price": 95,
+        "name": "Capricciosa",
+        "price": 90,
         "ingredients": [
-            "Skinka"
+            "Skinka",
+            "Champinjon"
+        ]
+    },
+    {
+        "name": "Capricciosa",
+        "price": 90,
+        "ingredients": [
+            "Skinka",
+            "Champinjon"
+        ]
+    },
+    {
+        "name": "Bussola",
+        "price": 90,
+        "ingredients": [
+            "Skinka",
+            "Räkor"
+        ]
+    },
+    {
+        "name": "Hawaii",
+        "price": 90,
+        "ingredients": [
+            "Skinka",
+            "Ananas"
+        ]
+    },
+    {
+        "name": "Bolognese",
+        "price": 90,
+        "ingredients": [
+            "Köttfärs",
+            "Lök"
+        ]
+    },
+    {
+        "name": "Romana",
+        "price": 90,
+        "ingredients": [
+            "Bacon",
+            "Lök"
+        ]
+    },
+    {
+        "name": "Oriental",
+        "price": 100,
+        "ingredients": [
+            "Ananas",
+            "Lök",
+            "Champinjon",
+            "Feferoni"
+        ]
+    },
+    {
+        "name": "Quattro Formaggi",
+        "price": 100,
+        "ingredients": [
+            "Fetaost",
+            "Gorgonzola",
+            "Chevré",
+            "Ridderost",
+            "Ruccola"
+        ]
+    },
+    {
+        "name": "Rio",
+        "price": 100,
+        "ingredients": [
+            "Skinka",
+            "Räkor",
+            "Ananas"
+        ]
+    },
+    {
+        "name": "Italia",
+        "price": 100,
+        "ingredients": [
+            "Skinka",
+            "Räkor",
+            "Tonfisk"
+        ]
+    },
+    {
+        "name": "Sicilia",
+        "price": 100,
+        "ingredients": [
+            "Salami",
+            "Paprika",
+            "Lök"
+        ]
+    },
+    {
+        "name": "Marinara",
+        "price": 100,
+        "ingredients": [
+            "Räkor",
+            "Musslor"
+        ]
+    },
+    {
+        "name": "Vegetariana",
+        "price": 100,
+        "ingredients": [
+            "Lök",
+            "Champinjon",
+            "Paprika",
+            "Oliver",
+            "Kronärtsskocka"
         ]
     }
 ]
