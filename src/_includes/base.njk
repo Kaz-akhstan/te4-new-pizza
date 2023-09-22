@@ -10,10 +10,7 @@
 
 <body>
     <main class="flow">
-        <header>
-            <h1>Hello World</h1>
-        </header>
-
+        {% include "navbar.njk" %}
         <article>
             {{ content | safe }}
         </article>
