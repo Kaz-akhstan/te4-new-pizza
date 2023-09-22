@@ -32,6 +32,7 @@
 }
 
 iframe {
+    margin: 10px;
     width: min(35rem, 100vw - 4rem);
     height: min(20rem, 100vw - 4rem);
     border: 0;
