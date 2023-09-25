@@ -20,11 +20,12 @@
         ]
     },
     {
-        "name": "Capricciosa",
+        "name": "Kebab",
         "price": 90,
         "ingredients": [
-            "Skinka",
-            "Champinjon"
+            "Kebab",
+            "Feferoni",
+            "Lök"
         ]
     },
     {
