@@ -1,0 +1,38 @@
+.features {
+    --grid-placement: auto-fit;
+    --grid-min-item-size: clamp(16rem, 33%, 20rem);
+    --gutter: var(--space-l-xl);
+    --flow-space: var(--space-s);
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.footor-componet {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+}
+
+.footor-componet ul {
+    list-style: none;
+}
+
+.footor-componet h1 {
+    font-size: var(--size-step-3);
+}
+
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--wrapper-max-width, 85rem);
+    padding: 0 var(--gutter);
+    position: relative;
+}
+
+iframe {
+    margin: 10px;
+    width: min(35rem, 100vw - 4rem);
+    height: min(20rem, 100vw - 4rem);
+    border: 0;
+}
