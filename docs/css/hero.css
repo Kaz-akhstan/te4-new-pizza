@@ -1,6 +1,6 @@
 .hero {
     z-index: -1;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/ivan-torres-MQUqbmszGGM-unsplash.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/ivan-torres-MQUqbmszGGM-unsplash.jpg");
     min-width: fit-content;
     height: 96vh;
     width: 100%;
